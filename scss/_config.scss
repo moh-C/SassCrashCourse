@@ -11,3 +11,8 @@ $secondary-color: #ff8700;
         @return #fff;
     }
 }
+
+@mixin set-background($color) {
+    background-color: $color;
+    color: set-text-color($color);
+}

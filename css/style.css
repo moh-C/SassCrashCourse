@@ -14,10 +14,12 @@
             transform: scale(0.98); }
 
 .btn-primary {
-  background-color: white; }
+  background-color: #418bff;
+  color: #fff; }
 
 .btn-secondary {
-  background-color: #ff8700; }
+  background-color: #ff8700;
+  color: #fff; }
 
 * {
   -webkit-box-sizing: border-box;
@@ -37,8 +39,8 @@ body {
   line-height: 1.6; }
 
 .showcase {
-  background-color: #e0ffff;
-  color: #333;
+  background-color: #0e6cff;
+  color: #fff;
   height: 600px; }
   .showcase nav {
     display: -webkit-box;
@@ -61,7 +63,7 @@ body {
     .showcase ul a:hover {
       color: #ff8700; }
   .showcase a {
-    color: #333; }
+    color: #fff; }
   .showcase-content {
     height: 100%;
     display: -webkit-box;
